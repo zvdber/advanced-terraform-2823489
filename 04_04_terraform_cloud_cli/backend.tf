@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "red30"
+    organization = "zvber_terraform_training"
 
     workspaces {
       name = "cli-workspace"
